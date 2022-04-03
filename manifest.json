@@ -1,0 +1,25 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "SynonymsExtension",
+  "description": "SynonymsExtension",
+  "developer_name": "laercioskt",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.5
+  },
+  "preferences": [
+    {
+      "id": "synonyms_kw",
+      "type": "keyword",
+      "name": "Synonyms",
+      "default_value": "sy"
+    },
+    {
+      "id": "wrap",
+      "type": "text",
+      "name": "Text Wrapping",
+      "description": "Count of letters in line",
+      "default_value": "80"
+    }
+  ]
+}
